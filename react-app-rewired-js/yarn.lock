@@ -3507,10 +3507,10 @@
   dependencies:
     rango-types "^0.1.57"
 
-"@rango-dev/widget-embedded@^0.22.0":
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/widget-embedded/-/widget-embedded-0.22.0.tgz#86a3650e60abcee316765cf993230afe188a04f2"
-  integrity sha512-ONiTQP5t0aOyWjjXtmErrfqBZ/5UUu2mIiTkz2WmZde5+JzUWLHMtaTQ8YijQ0M0POwFRajbP7fmK7kFo1oNhQ==
+"@rango-dev/widget-embedded@^0.22.1":
+  version "0.22.1"
+  resolved "https://registry.yarnpkg.com/@rango-dev/widget-embedded/-/widget-embedded-0.22.1.tgz#82a746eed7af426996e02c526c8243a457eb90f0"
+  integrity sha512-fyGiG7dFTzTBsP1tNQAyhi0/PVS0DDGmz9yuP/sWOEtIWiKmc5J1d3eF5hcZ1SQRIWOgT9RymnbKXTJKmUt2hQ==
   dependencies:
     "@lingui/core" "4.2.1"
     "@lingui/react" "4.2.1"
