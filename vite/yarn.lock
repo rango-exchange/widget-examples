@@ -7,7 +7,7 @@
   resolved "https://registry.yarnpkg.com/@adraffy/ens-normalize/-/ens-normalize-1.10.0.tgz#d2a39395c587e092d77cbbc80acf956a54f38bf7"
   integrity sha512-nA9XHtlAkYfJxY7bce8DcN7eKxWWCWkU+1GR9d+U6MbNpfwQp8TI7vqOsBsMcHoT4mBu2kypKoSKnghEzOOq5Q==
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.17.2", "@babel/runtime@^7.20.6":
+"@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.17.2", "@babel/runtime@^7.20.6":
   version "7.22.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.22.3.tgz#0a7fce51d43adbf0f7b517a71f4c3aaca92ebcbb"
   integrity sha512-XsDuspWKLUsxwCp6r7EhsExHtYfbe5oAGQ19kqngTdCPUoPQzOPdUbD/pB9PJiwb2ptYKQDjSJT3R6dC+EPqfQ==
@@ -2015,10 +2015,10 @@
   dependencies:
     rango-types "^0.1.57"
 
-"@rango-dev/ui@^0.27.0":
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/ui/-/ui-0.27.0.tgz#672c6f2fe43a2d1f25c35e8fed8fc93ce186a984"
-  integrity sha512-7FXzJpcr8YZfn55tDhcs+G8YdONvXmJsvT7PgDNZuTRgYlVfgBotokyrHaK5+/g7gm6UN8E/wjzytz7R0o+7sQ==
+"@rango-dev/ui@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/ui/-/ui-0.28.0.tgz#00e9cdec9ce119caf2f12b3655be1a5bb7037998"
+  integrity sha512-uWj7wZmrLyV1a6kebyAU2+Fc16Iw5coIB9Uw2+Sc4RGrDcuB1WfTv7Wqew89poa7zvgz22Wa343n5VVxFJqkaQ==
   dependencies:
     "@radix-ui/react-checkbox" "^1.0.1"
     "@radix-ui/react-collapsible" "^1.0.3"
@@ -2030,9 +2030,7 @@
     "@stitches/react" "^1.2.8"
     rango-sdk "^0.1.44"
     rango-types "^0.1.57"
-    react-virtualized-auto-sizer "^1.0.7"
-    react-window "^1.8.8"
-    react-window-infinite-loader "^1.0.8"
+    react-virtuoso "^4.6.2"
     rgb-hex "^4.0.1"
 
 "@rango-dev/wallets-core@^0.27.0":
@@ -2059,10 +2057,10 @@
   dependencies:
     rango-types "^0.1.57"
 
-"@rango-dev/widget-embedded@^0.21.0":
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/widget-embedded/-/widget-embedded-0.21.0.tgz#6e4a886ed7860f6c38c635af5373ee6ee75afcdb"
-  integrity sha512-5eZl+t9i/K32J7Tsa3vDM0qGA0+OAzi6Wrrj/Ryqog/HFC1o7n3HIx0jbvshDOnndiWdtl5n5WZNLuz80sCQ+A==
+"@rango-dev/widget-embedded@^0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/widget-embedded/-/widget-embedded-0.22.0.tgz#86a3650e60abcee316765cf993230afe188a04f2"
+  integrity sha512-ONiTQP5t0aOyWjjXtmErrfqBZ/5UUu2mIiTkz2WmZde5+JzUWLHMtaTQ8YijQ0M0POwFRajbP7fmK7kFo1oNhQ==
   dependencies:
     "@lingui/core" "4.2.1"
     "@lingui/react" "4.2.1"
@@ -2070,7 +2068,7 @@
     "@rango-dev/queue-manager-core" "^0.25.0"
     "@rango-dev/queue-manager-rango-preset" "^0.26.0"
     "@rango-dev/queue-manager-react" "^0.25.0"
-    "@rango-dev/ui" "^0.27.0"
+    "@rango-dev/ui" "^0.28.0"
     "@rango-dev/wallets-react" "^0.12.0"
     "@rango-dev/wallets-shared" "^0.26.0"
     bignumber.js "^9.1.1"
@@ -4727,11 +4725,6 @@ md5@~2.2.1:
     crypt "~0.0.1"
     is-buffer "~1.1.1"
 
-"memoize-one@>=3.1.1 <6":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-5.2.1.tgz#8337aa3c4335581839ec01c3d594090cebe8f00e"
-  integrity sha512-zYiwtZUcYyXKo/np96AGZAckk+FWWsUdJ3cHGGmld7+AhvcWmQyGCYUh1hc4Q/pkOhb65dQR/pqCyK0cOaHz4Q==
-
 merge-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
@@ -5446,23 +5439,10 @@ react-style-singleton@^2.2.1:
     invariant "^2.2.4"
     tslib "^2.0.0"
 
-react-virtualized-auto-sizer@^1.0.7:
-  version "1.0.19"
-  resolved "https://registry.yarnpkg.com/react-virtualized-auto-sizer/-/react-virtualized-auto-sizer-1.0.19.tgz#1117147dbec3f23db94ded1f0ddd9f1fd0692aef"
-  integrity sha512-jAPNLjG1DBnLQUMZz1py/5z7/wC8Gn8G+WAXQplDdVr9zO/xdTWLtDM3aPHm8e2gLT2xQxMql507IMuLA6himw==
-
-react-window-infinite-loader@^1.0.8:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/react-window-infinite-loader/-/react-window-infinite-loader-1.0.9.tgz#d861c03d5cbc550e2f185371af820fd22d46c099"
-  integrity sha512-5Hg89IdU4Vrp0RT8kZYKeTIxWZYhNkVXeI1HbKo01Vm/Z7qztDvXljwx16sMzsa9yapRJQW3ODZfMUw38SOWHw==
-
-react-window@^1.8.8:
-  version "1.8.9"
-  resolved "https://registry.yarnpkg.com/react-window/-/react-window-1.8.9.tgz#24bc346be73d0468cdf91998aac94e32bc7fa6a8"
-  integrity sha512-+Eqx/fj1Aa5WnhRfj9dJg4VYATGwIUP2ItwItiJ6zboKWA6EX3lYDAXfGF2hyNqplEprhbtjbipiADEcwQ823Q==
-  dependencies:
-    "@babel/runtime" "^7.0.0"
-    memoize-one ">=3.1.1 <6"
+react-virtuoso@^4.6.2:
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/react-virtuoso/-/react-virtuoso-4.6.3.tgz#95f3a7905863a51bba3aa724c5ee79ccaf0400fb"
+  integrity sha512-NcoSsf4B0OCx7U8i2s+VWe8b9e+FWzcN/5ly4hKjErynBzGONbWORZ1C5amUlWrPi6+HbUQ2PjnT4OpyQIpP9A==
 
 react@^18.2.0:
   version "18.2.0"
