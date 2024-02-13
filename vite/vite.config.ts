@@ -10,5 +10,9 @@ export default () => {
       },
     },
     plugins: [nodePolyfills()],
+    server: {
+      host: "localhost",
+      port: 3000,
+    },
   });
 };
