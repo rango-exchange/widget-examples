@@ -1,0 +1,19 @@
+#app {
+  height: 100vh;
+}
+
+.main-container {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wallets-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
