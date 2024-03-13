@@ -1,3 +1,4 @@
+import './App.css';
 import { Widget } from "@rango-dev/widget-embedded";
 
 function App() {
