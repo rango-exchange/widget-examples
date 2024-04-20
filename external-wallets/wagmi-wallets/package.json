@@ -1,0 +1,50 @@
+{
+  "name": "dapp-wallets",
+  "version": "1.0.0",
+  "dependencies": {
+    "@rango-dev/ui": "^0.28.1",
+    "@rango-dev/widget-embedded": "^0.22.3",
+    "@tanstack/react-query": "^5.29.2",
+    "@wagmi/connectors": "^4.1.25",
+    "react": "18.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "18.2.0",
+    "viem": "2.x",
+    "wagmi": "^2.5.19"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-scripts": "^5.0.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "typescript": "^5.0.4",
+    "util": "^0.12.5"
+  },
+  "scripts": {
+    "start": "export NODE_OPTIONS='--max_old_space_size=8192'; react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      "chrome >= 67",
+      "edge >= 79",
+      "firefox >= 68",
+      "opera >= 54",
+      "safari >= 14"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
