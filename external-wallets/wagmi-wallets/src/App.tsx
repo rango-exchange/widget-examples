@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import {
   HandleWalletsUpdate,
   WidgetProvider,
@@ -10,30 +10,25 @@ import { useAccount, useConnect, useDisconnect } from "wagmi";
 
 export default function App() {
   const { connect, connectors } = useConnect();
+  const [rangoWalletConnected, setRangoWalletConnected] = useState<string | null>(
+    null
+  );
   const { disconnect } = useDisconnect();
   const { isConnected } = useAccount();
-
   const handleUpdate = useCallback<HandleWalletsUpdate>(
     (providerName, eventType, accounts, providerState, supportedChains) => {
       if (providerState.connected && !isConnected) {
-        const connector = connectors.find(
-          (c) => WALLETS.find((w) => w.type === providerName)?.name === c.name
-        );
-        if (connector) connect({ connector });
+        setRangoWalletConnected(providerName);
       } else if (
         isConnected &&
         !providerState.connected &&
         !providerState.connecting
       ) {
+        setRangoWalletConnected(null);
         disconnect();
+      } else {
+        setRangoWalletConnected(null);
       }
-      console.log({
-        providerName,
-        eventType,
-        accounts,
-        providerState,
-        supportedChains,
-      });
     },
     [isConnected]
   );
@@ -45,7 +40,7 @@ export default function App() {
         // Listen to the wallet provider events and get the latest updates
         onUpdateState={handleUpdate}
       >
-        <Dapp />
+        <Dapp rangoWalletConnected={rangoWalletConnected} />
       </WidgetProvider>
     </div>
   );

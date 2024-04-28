@@ -1,4 +1,4 @@
-import { Fragment, useEffect } from "react";
+import { Fragment, useEffect, useRef } from "react";
 import { Widget, useWallets } from "@rango-dev/widget-embedded";
 import { WALLETS, WIDGET_CONFIG } from "./constants";
 import { Button } from "@rango-dev/ui";
@@ -18,7 +18,6 @@ function ExternalWallet({
   const { isConnected, connector: connectedWallet } = useAccount();
   const walletIsConnected =
     isConnected && connectedWallet?.name === connector?.name;
-
   const {
     connect: rangoConnect,
     disconnect: rangoDisconnect,
@@ -57,12 +56,30 @@ function ExternalWallet({
   );
 }
 
-export function Dapp() {
-  const { connectors } = useConnect();
+export function Dapp({
+  rangoWalletConnected,
+}: {
+  rangoWalletConnected: string | null;
+}) {
+  const { connectors, connect } = useConnect();
+  const { disconnect: rangoDisconnect } = useWallets();
   const filteredWallets = WALLETS.map((w) => {
     return { ...w, connector: connectors.find((c) => c.name === w.name) };
   });
 
+  useEffect(() => {
+    if (rangoWalletConnected) {
+      const connector = connectors.find(
+        (c) =>
+          WALLETS.find((w) => w.type === rangoWalletConnected)?.name === c.name
+      );
+      if (connector)
+        connect(
+          { connector },
+          { onError: () => rangoDisconnect(rangoWalletConnected) }
+        );
+    }
+  }, [rangoWalletConnected]);
   return (
     <div className="main-container">
       <div className="wallets-container">
