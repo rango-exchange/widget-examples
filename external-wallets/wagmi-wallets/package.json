@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "@rango-dev/ui": "^0.28.1",
-    "@rango-dev/widget-embedded": "^0.22.3",
+    "@rango-dev/widget-embedded": "^0.27.2",
     "@tanstack/react-query": "^5.29.2",
     "@wagmi/connectors": "^4.1.25",
     "react": "18.2.0",
