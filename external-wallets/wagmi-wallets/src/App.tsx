@@ -5,11 +5,10 @@ import {
 } from "@rango-dev/widget-embedded";
 import { Dapp } from "./Dapp";
 import "./styles.css";
-import { WALLETS, WIDGET_CONFIG } from "./constants";
-import { useAccount, useConnect, useDisconnect } from "wagmi";
+import { WIDGET_CONFIG } from "./constants";
+import { useAccount, useDisconnect } from "wagmi";
 
 export default function App() {
-  const { connect, connectors } = useConnect();
   const [rangoWalletConnected, setRangoWalletConnected] = useState<string | null>(
     null
   );

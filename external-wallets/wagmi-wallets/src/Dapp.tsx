@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useRef } from "react";
+import { Fragment, useEffect } from "react";
 import { Widget, useWallets } from "@rango-dev/widget-embedded";
 import { WALLETS, WIDGET_CONFIG } from "./constants";
 import { Button } from "@rango-dev/ui";
@@ -37,9 +37,18 @@ function ExternalWallet({
   };
 
   useEffect(() => {
-    if (walletIsConnected && !state(type).connected) {
+    if (
+      walletIsConnected &&
+      state(type).installed &&
+      !state(type).connected &&
+      !state(type).connecting
+    ) {
       rangoConnect(type);
-    } else if (!walletIsConnected && state(type).connected) {
+    } else if (
+      !walletIsConnected &&
+      state(type).installed &&
+      state(type).connected
+    ) {
       rangoDisconnect(type);
     }
   }, [walletIsConnected]);
