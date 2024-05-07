@@ -55,7 +55,7 @@ function ExternalWallet({
 
   return (
     <Button
-      disabled={!connector || !connector?.getProvider()}
+      disabled={!connector || !connector?.getProvider() || !state(type).installed}
       type={walletIsConnected ? "warning" : "primary"}
       size="large"
       onClick={handleClick}
