@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@rango-dev/ui": "^0.32.0",
-    "@rango-dev/widget-embedded": "^0.26.0",
+    "@rango-dev/widget-embedded": "^0.28.0",
     "react": "^18.2.0",
     "react-app-rewired": "^2.2.1",
     "react-dom": "^18.2.0"

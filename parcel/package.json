@@ -21,8 +21,11 @@
     "util": "^0.12.3"
   },
   "dependencies": {
-    "@rango-dev/widget-embedded": "^0.26.0",
+    "@rango-dev/widget-embedded": "^0.28.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "@parcel/resolver-default": {
+    "packageExports": true
   }
 }
