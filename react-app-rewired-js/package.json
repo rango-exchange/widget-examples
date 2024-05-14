@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@rango-dev/widget-embedded": "0.26.0",
+    "@rango-dev/widget-embedded": "^0.28.0",
     "react": "^18.2.0",
     "react-app-rewired": "^2.2.1",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "assert": "^2.0.0",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "assert": "^2.0.0",
     "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.0",
     "https-browserify": "^1.0.0",
