@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@rango-dev/widget-embedded": "^0.33.0",
+    "@rango-dev/widget-embedded": "^0.34.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "veaury": "^2.3.16",
