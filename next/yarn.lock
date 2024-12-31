@@ -2049,199 +2049,201 @@
   resolved "https://registry.yarnpkg.com/@rango-dev/logging-types/-/logging-types-0.6.0.tgz#58945c71bf73f18e0720564336f28e27240e47a6"
   integrity sha512-bKHAotsCHXRZrFX7qFKA5KbpwHgpG7Ln0ehk7Srqr37PCaZhNnlF/WgJ6lFFuitnh3cgeiyuFIL8+EkHDDRD6A==
 
-"@rango-dev/provider-all@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-all/-/provider-all-0.39.0.tgz#b87b12394d2cf3bb1d49e23b22c5632198e2e026"
-  integrity sha512-J2nKDgmXcEUpAws7uCm1lGPX16Sri++PlW+17Intnhz+zbQDvpUabnIGLp9ZKFcfd/Axw47kZai4SnIgxfZ1Fg==
+"@rango-dev/provider-all@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-all/-/provider-all-0.41.0.tgz#04fe914ed1e4d1cabdb7c9b90a02dae54929adc3"
+  integrity sha512-ZjMwy2bDOPIgCUUQ/KuouRRNL+XygTdY0J41hSYSuB2QCTVcujKlGzNQTKn+ucKuTBJChkDzSDmhN2LYxmYQsA==
   dependencies:
-    "@rango-dev/provider-argentx" "^0.40.0"
-    "@rango-dev/provider-bitget" "^0.36.0"
-    "@rango-dev/provider-braavos" "^0.33.0"
-    "@rango-dev/provider-brave" "^0.40.0"
-    "@rango-dev/provider-clover" "^0.40.0"
-    "@rango-dev/provider-coin98" "^0.40.0"
-    "@rango-dev/provider-coinbase" "^0.39.0"
-    "@rango-dev/provider-cosmostation" "^0.39.0"
-    "@rango-dev/provider-default" "^0.36.0"
-    "@rango-dev/provider-enkrypt" "^0.39.0"
-    "@rango-dev/provider-exodus" "^0.39.0"
-    "@rango-dev/provider-frontier" "^0.39.0"
-    "@rango-dev/provider-halo" "^0.39.0"
-    "@rango-dev/provider-keplr" "^0.39.0"
-    "@rango-dev/provider-leap-cosmos" "^0.39.0"
-    "@rango-dev/provider-ledger" "^0.9.0"
-    "@rango-dev/provider-math-wallet" "^0.39.0"
-    "@rango-dev/provider-metamask" "^0.39.0"
-    "@rango-dev/provider-okx" "^0.39.0"
-    "@rango-dev/provider-phantom" "^0.39.0"
-    "@rango-dev/provider-rabby" "^0.6.0"
-    "@rango-dev/provider-safe" "^0.32.0"
-    "@rango-dev/provider-safepal" "^0.39.0"
-    "@rango-dev/provider-solflare" "^0.5.0"
-    "@rango-dev/provider-solflare-snap" "^0.10.0"
-    "@rango-dev/provider-taho" "^0.39.0"
-    "@rango-dev/provider-tokenpocket" "^0.39.0"
-    "@rango-dev/provider-tomo" "^0.6.0"
-    "@rango-dev/provider-trezor" "^0.6.0"
-    "@rango-dev/provider-tron-link" "^0.39.0"
-    "@rango-dev/provider-trustwallet" "^0.39.0"
-    "@rango-dev/provider-walletconnect-2" "^0.32.0"
-    "@rango-dev/provider-xdefi" "^0.39.0"
-    "@rango-dev/wallets-react" "^0.25.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/provider-argentx" "^0.42.0"
+    "@rango-dev/provider-bitget" "^0.38.0"
+    "@rango-dev/provider-braavos" "^0.35.0"
+    "@rango-dev/provider-brave" "^0.42.0"
+    "@rango-dev/provider-clover" "^0.42.0"
+    "@rango-dev/provider-coin98" "^0.42.0"
+    "@rango-dev/provider-coinbase" "^0.41.0"
+    "@rango-dev/provider-cosmostation" "^0.41.0"
+    "@rango-dev/provider-default" "^0.38.0"
+    "@rango-dev/provider-enkrypt" "^0.41.0"
+    "@rango-dev/provider-exodus" "^0.41.0"
+    "@rango-dev/provider-frontier" "^0.41.0"
+    "@rango-dev/provider-halo" "^0.41.0"
+    "@rango-dev/provider-keplr" "^0.41.0"
+    "@rango-dev/provider-leap-cosmos" "^0.41.0"
+    "@rango-dev/provider-ledger" "^0.11.0"
+    "@rango-dev/provider-math-wallet" "^0.41.0"
+    "@rango-dev/provider-metamask" "^0.41.0"
+    "@rango-dev/provider-mytonwallet" "^0.26.0"
+    "@rango-dev/provider-okx" "^0.41.0"
+    "@rango-dev/provider-phantom" "^0.41.0"
+    "@rango-dev/provider-rabby" "^0.8.0"
+    "@rango-dev/provider-safe" "^0.34.0"
+    "@rango-dev/provider-safepal" "^0.41.0"
+    "@rango-dev/provider-solflare" "^0.7.0"
+    "@rango-dev/provider-solflare-snap" "^0.12.0"
+    "@rango-dev/provider-taho" "^0.41.0"
+    "@rango-dev/provider-tokenpocket" "^0.41.0"
+    "@rango-dev/provider-tomo" "^0.8.0"
+    "@rango-dev/provider-tonconnect" "^0.3.0"
+    "@rango-dev/provider-trezor" "^0.8.0"
+    "@rango-dev/provider-tron-link" "^0.41.0"
+    "@rango-dev/provider-trustwallet" "^0.41.0"
+    "@rango-dev/provider-walletconnect-2" "^0.34.0"
+    "@rango-dev/provider-xdefi" "^0.41.0"
+    "@rango-dev/wallets-react" "^0.27.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
 
-"@rango-dev/provider-argentx@^0.40.0":
-  version "0.40.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-argentx/-/provider-argentx-0.40.0.tgz#665722d0dd8e9f0994b41cef00f307a61b9dd93a"
-  integrity sha512-oSMS5mjhfay30B7u3y2ZiipJXTP5UsAvvh2XoKFFNw0FiwtJgVBkVTLpk5zhJlDczOtJuyOsFtavFXea3azi5g==
+"@rango-dev/provider-argentx@^0.42.0":
+  version "0.42.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-argentx/-/provider-argentx-0.42.0.tgz#442bf822ae964ae355627e8c164c76566dc86b7b"
+  integrity sha512-iVCA4baN8FRxQ4zGEYSmAIbAy80Z8/SSyfaolg8PYODUl/MiyhYPtupYxnKvjpOQzjV/SnJVn1OCOZTX28A9xA==
   dependencies:
     "@rango-dev/signer-starknet" "^0.32.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-bitget@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-bitget/-/provider-bitget-0.36.0.tgz#a5fc5859e097bf6068452cf8f5f422c574fc816c"
-  integrity sha512-UmOAguJO4b1yAiALPa9zMgAFXEoUZms6dEnii3bWf4rnHlWy1eTAZd9QRlQW0mejnK5SKSA7NGRSY6vwN7BZwQ==
+"@rango-dev/provider-bitget@^0.38.0":
+  version "0.38.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-bitget/-/provider-bitget-0.38.0.tgz#aa3dd3ebac9e1919d2288f21b95917098399f5d0"
+  integrity sha512-vjP7wuemSA4JyPPOGDH9E5FOReikW7fOV7VgoSdkELLD9Kim3eusHcLvRUrSZVfjjeK4TeUgitWlgZFCktnMIg==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
     "@rango-dev/signer-tron" "^0.31.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-braavos@^0.33.0":
-  version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-braavos/-/provider-braavos-0.33.0.tgz#304eca627a269a5c482da5cbfcc841ecf631a546"
-  integrity sha512-iDSdTwmxr2Axi//7sadMFUWZAKmWa92XsbcTDl59sV8M7m/L3S7zl0p/3/YdjjS7Dc5OM5/SJLobVq6ISyrT6A==
+"@rango-dev/provider-braavos@^0.35.0":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-braavos/-/provider-braavos-0.35.0.tgz#8e7e14b98d8cde6f02598c4610a692b24934a26c"
+  integrity sha512-Mq2oMGNt6CtSqcZwA0oVS08dafvKyb+g6B7m6nqA+GEcPlOSozE45tAF7IvFx/vDyeZeA++2rnFRdRES9GyzKA==
   dependencies:
     "@rango-dev/signer-starknet" "^0.32.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-brave@^0.40.0":
-  version "0.40.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-brave/-/provider-brave-0.40.0.tgz#99ac2ed1b16da0beeab12f8bb7e16de250c731a9"
-  integrity sha512-0WwfpMWh642pIDXMW+R1gJ+Em9iAaJBw6H3/ZeZs2vpzjH6hN/5Qeyiiru2yP8pGRM6RTg475kzDfh6BMGRkqA==
+"@rango-dev/provider-brave@^0.42.0":
+  version "0.42.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-brave/-/provider-brave-0.42.0.tgz#5c9363be810ce2e3ad6405ef06ea0d6795658145"
+  integrity sha512-Vhd7wHd/n83zLPP3YwMm7dbDr6PBPqlA92ed+a177QsO4riwFCqsXxU/inqrh0GYEjpylRu8m4ee22Ebo8vbHQ==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-clover@^0.40.0":
-  version "0.40.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-clover/-/provider-clover-0.40.0.tgz#a85589a01c3b63c116f2da99ac1cfe113ea42081"
-  integrity sha512-0rKEmfA2sqzsieim0oMlc26RfelnVgFZSStvBvfVNm2IhY4Fn01YO+zfhnd+GwZejNZ0Wjby+KN1fgkdzd99Bw==
+"@rango-dev/provider-clover@^0.42.0":
+  version "0.42.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-clover/-/provider-clover-0.42.0.tgz#94a6df3188d9e1c956db79678a659a5df95bd815"
+  integrity sha512-UiC6XX2LTDrL3CIhRoa6LDpbrl0fbMwQyoHa34+ZV1aVtfIIGwlPnNsoncfhtxT1n9mHmaagSgQtbKtPwlsnyA==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     bs58 "^5.0.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-coin98@^0.40.0":
-  version "0.40.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-coin98/-/provider-coin98-0.40.0.tgz#d9cfa7a33fd03d57fe53533fe174dec6673cb83a"
-  integrity sha512-Q/ezDpJYH+6u1vd1iFUB4GlGG1fYjeZ7MALMErLC8garaWLDPurzWXtRU7ZBpyeEidB/PKcSw35+VcnR4OCHAg==
+"@rango-dev/provider-coin98@^0.42.0":
+  version "0.42.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-coin98/-/provider-coin98-0.42.0.tgz#7ad1f62ff0d15a9bd4bec89600cbb283d148ff52"
+  integrity sha512-FATjKXMq1toXyx+fX5e8SNzfAZHZuHeskEV1QRAs9IDJBPc8xPxzzlZ4HjEfP77MFgkZjYOnbJqSUnq8cf3LHA==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     "@solana/web3.js" "^1.91.4"
     bs58 "^5.0.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-coinbase@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-coinbase/-/provider-coinbase-0.39.0.tgz#288675d45f16a1b639fda5743b2c0aef71ec6182"
-  integrity sha512-1H8JXz4Kcu2SHN46hr0JYF5R6erxuzer2WmHoy6Gr9Ac9j7vkKSjxE8MnYBBFgZHo5dQ5wmeMq25euzhn0ze7A==
+"@rango-dev/provider-coinbase@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-coinbase/-/provider-coinbase-0.41.0.tgz#095765e6b5784d5b847f5df29f7043a1d6c46e49"
+  integrity sha512-gnINL5rQDgSfmERMK2UEZKlcZSPxb3MOYwc0Ie12csAPGkEZzUAspnsSV/EX3WPAU9I2YrejnxNN0/LNgNop0A==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     bs58 "^5.0.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-cosmostation@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-cosmostation/-/provider-cosmostation-0.39.0.tgz#e1eb8ef0993d3d7b001f419893487c36b64ceb1a"
-  integrity sha512-OEzFrO8Yv2fDkQBb55Gno9sSOJia9vHF4haGgTjB75ayX8ReBdX8xVquE7GkUnv9F2kVKLJzUOEqRNHpxxjefA==
+"@rango-dev/provider-cosmostation@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-cosmostation/-/provider-cosmostation-0.41.0.tgz#31ecd01c15e380409dca2031344b36170612ae98"
+  integrity sha512-IXDjr39z5oH3G7zKQhwtMORPIZsRxm1AFWWgZ6xZ/eIaG35FjE7j/hSjSBGEDk3Lwxy/M90zqf6+0G9Pq3wzWQ==
   dependencies:
     "@rango-dev/signer-cosmos" "^0.30.1"
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-default@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-default/-/provider-default-0.36.0.tgz#e976524ca0c3b3f379939e03867dbfe977581884"
-  integrity sha512-M+XKve2Vp3Tkm04sfosCRaZOxzKrfvhR3ufPsPZ/EvHVRn1D2hkb63rFsK+EYWzzFiWsJgrI4S3FXJ9lgouxkg==
+"@rango-dev/provider-default@^0.38.0":
+  version "0.38.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-default/-/provider-default-0.38.0.tgz#c07a4f8e06512ae4356d96843ffe785b4730c45b"
+  integrity sha512-fHw3Qf8EQdzwXTW9xGwMF3NEE1xKwmtW9iVom67xS7K3o/eOfIXnvjRLurCVKNGHFyIIdMLMUqy8aRbBRSfS2Q==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-enkrypt@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-enkrypt/-/provider-enkrypt-0.39.0.tgz#44ce1ce7ab5a9aef728f91049f24546d3e13209f"
-  integrity sha512-lLOF3Fh58uScKFgjRkl/NOCZ9F50q1vrEri8RvtqyRqf9OFEgU0W1f8BH7fgb96jQi91eglstsMHM/b886FrMA==
+"@rango-dev/provider-enkrypt@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-enkrypt/-/provider-enkrypt-0.41.0.tgz#1d027fb4a0687a9a87e087f27e505879d8b95e45"
+  integrity sha512-1Z4/rWcsUqTmHrtVpi1VpW1SvRFTiLAaWsOTXoBKahAlNIi3rOMUeflGVDpRCq1UZuD6tAz4IwBG7yVOz8aNzQ==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-exodus@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-exodus/-/provider-exodus-0.39.0.tgz#97dbd0debefba7cdde079c81173f163fe194ab7c"
-  integrity sha512-fzzLwqOuOCTxSK0aXadccPd4wZmF9ZASF/G59uQPTW6AWxofqf49BDM21yonGN2uFR7U+n+1D974eXv6rzSAMA==
+"@rango-dev/provider-exodus@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-exodus/-/provider-exodus-0.41.0.tgz#5320113811c63c032260444a1a66f4852f8b45f5"
+  integrity sha512-c9swjaproi24Os80dCBqrYj1hLCFE8tGFMrxSF2IE0voYwi25AMtuBJGoNa3ds1Y0hvzPZBarSq06e0S1Dbi3Q==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     bs58 "^5.0.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-frontier@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-frontier/-/provider-frontier-0.39.0.tgz#b5ef2bbe6049733b9ea5b03fa0c20962606107ec"
-  integrity sha512-sS3qi2/eR0uck1q8NyjX99Q8PSfkuBhQ4+9o93sHNhhWQde8IgYLq2TnGeNlCeq10iJqprBDB5q/tjoIKwI7OQ==
+"@rango-dev/provider-frontier@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-frontier/-/provider-frontier-0.41.0.tgz#35d1e217b721e01e2acbb61cd7c4f3378eab91bc"
+  integrity sha512-MhhUJDFjsEvFzRa3AwS2XTbsNj2PWllJSwkwWKaRnkzH6/WxNMu8+jDlBV76MX6nltrRw6ByNltsB3gjIAp7Ug==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-halo@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-halo/-/provider-halo-0.39.0.tgz#9a71ee4fffc85f7864d575efae8e3a406d50dae8"
-  integrity sha512-vOQNYHN2AFzXwTYpJNp5s7J7oiryoq2vQDnOThCXjMTfDZiMjJK9vaHCltHmP+w9wA+qTtnQvxGsagllXwNJRQ==
+"@rango-dev/provider-halo@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-halo/-/provider-halo-0.41.0.tgz#97059ddf7496ca1c53a60fc4bb0ff042c406fcfc"
+  integrity sha512-bJP8H+HWFCL4or1sm8Lgv7Md1bKrFjJm3k88ezztM/UhH/0zw06gs5vBgAQpqn6zL0un8HGVkbAIEFNd/OfjbQ==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-keplr@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-keplr/-/provider-keplr-0.39.0.tgz#554177001385e98ef8d51de104162fd9167eddc3"
-  integrity sha512-qLdrnaU/aaQUVUjh8ge9Z/2CamXwWv/tgQWtzP9dOAtg7Bj4Nv52QlU5HORvzTfEgpCSdIr7l0FEerZxDxN0sQ==
+"@rango-dev/provider-keplr@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-keplr/-/provider-keplr-0.41.0.tgz#f408d2877b92313ca8748b12918f1dc63e3fbdcf"
+  integrity sha512-anMVOMeiB0gJ80gP1mkAgQ25VQejy36LptC4+8qOqYNDTJHPzd34LxBn4xyU3UPk+N7IHx8FQVubVBbC1H6YwQ==
   dependencies:
     "@rango-dev/signer-cosmos" "^0.30.1"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-leap-cosmos@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-leap-cosmos/-/provider-leap-cosmos-0.39.0.tgz#d23d951b2cee204efba1eed248c92a934ea6ce84"
-  integrity sha512-N6DavyfhaNQLZ9VT3DhmHsxUw80HBG+VXAiVv1lOhXfAxMEj+bClSfghV76HUEXtXbqXm+DYnuFDpuPRSpcFCQ==
+"@rango-dev/provider-leap-cosmos@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-leap-cosmos/-/provider-leap-cosmos-0.41.0.tgz#8f23e1bdf17c0f71b9d52b30e55061cf7bd67e42"
+  integrity sha512-7CLf3AA+OheItNLFpeEH+2I0BvGIQh9qaLK9dNLEqwYkVC60tedW//xDk0DV7ZCdEyWYXT3STeYVwpNUdNUNEA==
   dependencies:
     "@rango-dev/signer-cosmos" "^0.30.1"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-ledger@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-ledger/-/provider-ledger-0.9.0.tgz#120e7b0412c03760c6e0d0703e5ec64eb3c46de3"
-  integrity sha512-xIiuBZRdU+5xCFebPzHja8MFHulg1IofFcq0f/GeWr2ixwNV2/kOlaJIacYAWSjiafeNcB61EQzvrstcbNtrQQ==
+"@rango-dev/provider-ledger@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-ledger/-/provider-ledger-0.11.0.tgz#2dd4ac196900569d3f6c0d524f0deb9ac2851c99"
+  integrity sha512-nBJczpq8gpqzuM2rra4Op551kWEHGKyx9+9MJf3uupqc0RCnfIvuVJqZpyFPzadyvUyhl56sfS+29ZebpHFs4A==
   dependencies:
     "@ledgerhq/errors" "^6.16.4"
     "@ledgerhq/hw-app-eth" "^6.36.0"
@@ -2249,167 +2251,189 @@
     "@ledgerhq/hw-transport-webhid" "^6.28.6"
     "@ledgerhq/types-cryptoassets" "^7.11.0"
     "@ledgerhq/types-devices" "^6.24.0"
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     "@solana/web3.js" "^1.91.4"
     "@types/w3c-web-hid" "^1.0.2"
     bs58 "^5.0.0"
     ethers "^6.13.2"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-math-wallet@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-math-wallet/-/provider-math-wallet-0.39.0.tgz#9d124cb4ccd0bc40e240d7b4e522a6d81cdb63b6"
-  integrity sha512-B8zPOjX/1MYPd/TvGhSoH/aK2vB3XHE9OBrIZaH/isWfLT6CV4z7udNWp20qXKlY51QyOUL78JF3pGsKb2ZNcA==
+"@rango-dev/provider-math-wallet@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-math-wallet/-/provider-math-wallet-0.41.0.tgz#513745d897444c03791e3a0301d7bb9a41fdefb5"
+  integrity sha512-UGxYsfd/w9ET/pOzGktTJ1qDNALaenQ7b1L/VBVv/6CYERcTfsX3iddXX1OEHz4vg72qyrwB9gzio5UjM0/uUg==
   dependencies:
     "@cosmjs/stargate" "^0.31.0"
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-metamask@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-metamask/-/provider-metamask-0.39.0.tgz#a3f99537e5e77067f2f4464f6daac29f2bbacf89"
-  integrity sha512-TpmkaoD0/kbM65pyT0LEowlqAXoYV/VHDJdbQvhcOxKUf82Jz4frzogogcY0u8HtTVlJ351dacZI2rvVdLoyCQ==
+"@rango-dev/provider-metamask@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-metamask/-/provider-metamask-0.41.0.tgz#746c31709b916e1626a206651c44361ddb932ffd"
+  integrity sha512-Y5WFXsWm376aAiP1VpDuAFxr5zguioFOAslvl+4jUksuKl3g8iROIilHILFDH19ASOVeET4KWfuq05EQGb1U2w==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-okx@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-okx/-/provider-okx-0.39.0.tgz#b9b8fd0a796bda1e052cfa0aa86e19843fe5ca52"
-  integrity sha512-PWFZQF3RqtAi7peZS1adJ5dk2B9XjV1yY5VUCp4+Sh8t4V09Iu+LCAjesYZZDGmaSLnNKC3hxDzXmTdi8oQjdA==
+"@rango-dev/provider-mytonwallet@^0.26.0":
+  version "0.26.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-mytonwallet/-/provider-mytonwallet-0.26.0.tgz#bf314493c65aad0392325613aa304a7e1db8c9ad"
+  integrity sha512-4Sx62ddrAeaQc3/9j02c9vUPA2hKTgiKfowGeegz1ga2dmq9eu25XhmsDKNdlq9qw5PuswYTFM9QUQxD090jLQ==
+  dependencies:
+    "@rango-dev/signer-ton" "^0.18.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
+    "@ton/core" "^0.59.0"
+    "@ton/crypto" "^3.3.0"
+    rango-types "^0.1.74"
+
+"@rango-dev/provider-okx@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-okx/-/provider-okx-0.41.0.tgz#101511797167a9c5f8596160a1854e2523aaa026"
+  integrity sha512-q4COQQKXuBMmJuOuHH90LTVGrf7M+Y4jryZld4ZHADT7JyEQJdhi1z/j/VXsKnnP4MdxeG3yqwVS4HnjWKNwHQ==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-phantom@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-phantom/-/provider-phantom-0.39.0.tgz#dfcdd11d78da66326ed1e9a8be759d2b49b6c791"
-  integrity sha512-mFBFiqSbcqlt5ExR8Fvz12cK19dfDOBcY7OEiiMaEoLxWigvbphI9nr6CnblJCdhmMFrsV/1Oh1Z2nGx0ddnTg==
+"@rango-dev/provider-phantom@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-phantom/-/provider-phantom-0.41.0.tgz#473ccf4e985c4060e897fde544e34e28c0dfb382"
+  integrity sha512-QNHPOYtqhHrSGkeQcfTHMj6Ycyco5T/QRjxJFYOI4cLEAyT+FkkMPL38xtA66rmTKQQPTRsdIb01Z/erx45EyA==
   dependencies:
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-rabby@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-rabby/-/provider-rabby-0.6.0.tgz#f8046d4d23bcdc60799bd3efc9b057733658ef9a"
-  integrity sha512-BF9k2IzSW11GUUgpOZi7vo5IRMmfNQSknbN06MpwoIMLTh6xQUibdmpx1jOth2/enDXtgUAKoThptK2BOe3Ebg==
-  dependencies:
-    "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
-    rango-types "^0.1.74"
-
-"@rango-dev/provider-safe@^0.32.0":
-  version "0.32.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-safe/-/provider-safe-0.32.0.tgz#f6294dfab9e7fa6cfce9dfe527e55cdc9e5500c8"
-  integrity sha512-R7vE7JlFm9F1rDXQckmpA1PbQTSaVcyhgOh7ya+q7CGn5N+zYx6WEXtOu2e+6kytd0vsJtxwKsmU1wyufaADVA==
+"@rango-dev/provider-rabby@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-rabby/-/provider-rabby-0.8.0.tgz#3dfc2d89dcd7f9e2da7f1c763720b0f2928a20d6"
+  integrity sha512-DAFSqOm7b9zzYVWwTOW6MIYODsF1FNRAfEt2UFMCsACFBL9Yjty/Th9MzIFhWRZCQM21h3Du9LFekZLMzHfVMA==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
+    rango-types "^0.1.74"
+
+"@rango-dev/provider-safe@^0.34.0":
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-safe/-/provider-safe-0.34.0.tgz#6a64aa0ed59de1d48c4f567f3d1a8467051975f3"
+  integrity sha512-GPitASpr8RvJSXnjMtJjYuh1docbhzO55nSHhzHS9k78RK3d3HlzVVJKhHbnfBUWe6/Rwi3j8ax67kw6G91d/A==
+  dependencies:
+    "@rango-dev/signer-evm" "^0.32.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     "@safe-global/safe-apps-provider" "^0.17.0"
     "@safe-global/safe-apps-sdk" "^9.1.0"
     ethers "^6.13.2"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-safepal@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-safepal/-/provider-safepal-0.39.0.tgz#4aaddb088fec5180bc44ee99ca3bef7ae1708df0"
-  integrity sha512-WwmJlKr65mdLfDo1fSS+wKoq3yPWmnlf8tpzBMlGNmIIbf1lUsFjnp16zRKURQDxRm+SDTUQeYFuTMrtvZiLNQ==
+"@rango-dev/provider-safepal@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-safepal/-/provider-safepal-0.41.0.tgz#09bc50da890adf23111475ae7dbe34225e4baaff"
+  integrity sha512-sfXrkieLCjMzmSacziAFbVexdwwZECE0qvI3JSZ04NlBRabKSOk67HuJ7LxfTx3TP6BZ/rrd2va9dZJkCekHuA==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-solflare-snap@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-solflare-snap/-/provider-solflare-snap-0.10.0.tgz#88012788960c42b48bf2ee404eaa8f7041f5ea43"
-  integrity sha512-1ACUzHY8Km+ls2xMZ4PLvKt3DzOekt9fci8tPH6nmL4Zcth0KWkZWYEanLisxCUY2wReBfE8NQOuZA2VgLW/+g==
+"@rango-dev/provider-solflare-snap@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-solflare-snap/-/provider-solflare-snap-0.12.0.tgz#c0db1757e34c22b10f8bc5464596550043e17802"
+  integrity sha512-cI3+cBejy12YDyA58kpz3n5FwoxjDaqPyUrlFjag+6N856bDurxX5KzhVsPjCTpTEZphutxIAVeswf5RfA521A==
   dependencies:
-    "@rango-dev/provider-metamask" "^0.39.0"
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/provider-metamask" "^0.41.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     "@solflare-wallet/metamask-sdk" "^1.0.3"
     bs58 "^5.0.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-solflare@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-solflare/-/provider-solflare-0.5.0.tgz#44cd65205818e1830f48ec9754b1593f3affab03"
-  integrity sha512-EQOZE0UX1fUFjrI3I2MWj3LJ0PJbwct3sLloQeh11iqoqGAe1KOtUd4yOHJJhyvMBTeY6eBZgT05zXL/g5kImw==
+"@rango-dev/provider-solflare@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-solflare/-/provider-solflare-0.7.0.tgz#7a7f484b961876cf03adf71ea8c8106b72c2fc17"
+  integrity sha512-nmf2mDgIh4PTbkqkEDhCMw1506LsOuODx2UWyWAuaKR5r/2k01mbsxnpT1HOOryTn3hJxNW2MMzNciYi8wY4gA==
   dependencies:
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     "@solflare-wallet/sdk" "^1.4.2"
     bs58 "^5.0.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-taho@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-taho/-/provider-taho-0.39.0.tgz#298a31f71bd5d0cc68148a73fe760bc22cd2c9ee"
-  integrity sha512-yRTuClAoL+Lrw3WNdUprTcmKmyHNNFIqshve6lUHiqq9WWxYq5pZjjMlV2SKd8wCcTWgYE32cl/OdAnaq8IavA==
+"@rango-dev/provider-taho@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-taho/-/provider-taho-0.41.0.tgz#ccf26261c3dad0dad1f70a78037685695424c907"
+  integrity sha512-hbTJUL0iyrT9q5TuHgFMDL6cTn8E1vMAeyczn5tlH5EoW7wnSnxz6fKpWfgtriLPUViKiFo1TBZ2xD4Q3x8w3A==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-tokenpocket@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-tokenpocket/-/provider-tokenpocket-0.39.0.tgz#1ae42c4eabb2f32b7b12d3e45c7bb625b1b34a9d"
-  integrity sha512-Mvk+56KQyH+qjNcfTNPBS6JLBHNA8pesl7OajQUMtql9Eok3d1dF0xLAufrTd6xJ2tVC7cLYSLvGPXWlHWfMug==
+"@rango-dev/provider-tokenpocket@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-tokenpocket/-/provider-tokenpocket-0.41.0.tgz#804249fb942128ffac226fd93939d002a3468273"
+  integrity sha512-WYRW/aB2VW3aEOGRxwlaYtq0dwURuFNn6ZTLJbEekPA+ugVkhZsdiOoa6EUtWs/k4R8PnZDkmucBOljBK+RyDQ==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-tomo@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-tomo/-/provider-tomo-0.6.0.tgz#ff48012ac5fd8c9f1f78a768075103568687f996"
-  integrity sha512-YBIBNCKL9y52pywV/nd18S0HrwNilynWejln/jIFhPf0yJ5+qu2ypLcTQwpX2/uj7NV83pGCunxYIp9GbAOgYQ==
+"@rango-dev/provider-tomo@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-tomo/-/provider-tomo-0.8.0.tgz#e850eb961ae2d6905b396280295ba0f8be613d7a"
+  integrity sha512-VQ/3Fi3WCQj8WFbedCbr766BLWDHPmEGFPVQR1uWGBpN/Rq8CYfhqfUp+8MKcdGQSCwaSEMpifnEgtUytPtyTg==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-trezor@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-trezor/-/provider-trezor-0.6.0.tgz#f52fea5c535146cf32b5e9b327fc1390880298b9"
-  integrity sha512-gpz6tGlh7qT4E0iuzfLkox9WPjguzZkM1LZlwAgQUHeo0B0BhiRnfsJlV3oq6TRjzfTkUlAu615oSC2xMidH9A==
+"@rango-dev/provider-tonconnect@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-tonconnect/-/provider-tonconnect-0.3.0.tgz#6cef846e0c8e3697aebe64d1f22b59ee0263de3f"
+  integrity sha512-itznt7X6oBTf8RsdHOgJeE26Dzri/lYReFtgf/+wk1os2bYt7S0rq6AEfS2idDARB/d6CoZQpczXYAd1B5HC5w==
+  dependencies:
+    "@rango-dev/wallets-shared" "^0.41.0"
+    "@ton/core" "^0.59.0"
+    "@ton/crypto" "^3.3.0"
+    "@tonconnect/ui" "^2.0.9"
+    rango-types "^0.1.75"
+
+"@rango-dev/provider-trezor@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-trezor/-/provider-trezor-0.8.0.tgz#0428290d94d57f209011bea915a4cdb13d3cc1b7"
+  integrity sha512-YMPR9A5WBG40/YNuysLW24MMcBOPRNiVxJADCFs2ctLj9YkZKwPkSctS4LtyI9GJBdNyGtLeevS1XDPqO5ruNQ==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     "@trezor/connect-web" "^9.2.4"
     ethers "^6.13.2"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-tron-link@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-tron-link/-/provider-tron-link-0.39.0.tgz#ba317eceb585f7a1e83bc17d2632d06bdf0677cc"
-  integrity sha512-/jCwGT05Mw8cB6EHe0tsjm7B3PMrtyau8D0cum+UTzPuBHHJot0X8+QJLPjyUmll1632f2E+DkpZfH0lImlvTA==
+"@rango-dev/provider-tron-link@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-tron-link/-/provider-tron-link-0.41.0.tgz#fdb3477af9c26a73468fb4c53237fed5fc342574"
+  integrity sha512-DReXlZYijcJifCsHHk2kNUktrghgKrzajYDp/FefVOIvWxbAYt/G8wtzhv7QR5e6K+CKvL2p2rtkspc/dk1gvA==
   dependencies:
     "@rango-dev/signer-tron" "^0.31.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-trustwallet@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-trustwallet/-/provider-trustwallet-0.39.0.tgz#35508a42eb25f360c577657aa169e5eb1e8e0778"
-  integrity sha512-xG83uV/zW4MoR81ioRg4wt9t9X7PjwtTV/LvMCmKKMFcXmnBpCeowedd5v/dFR7NYP59IsxlhgdRFe5YN+34QA==
+"@rango-dev/provider-trustwallet@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-trustwallet/-/provider-trustwallet-0.41.0.tgz#b30d6f02f3d58f6c53990ceb12c093650aa2ec6d"
+  integrity sha512-w5UApUBMQGNRlvP9QhwMQaNheGcjru4a5Ib7XdsNW6GnnWB30/kMSyeeclgCAiHO6k0QPXkuhgtxmR9TgbSm4w==
   dependencies:
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-walletconnect-2@^0.32.0":
-  version "0.32.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-walletconnect-2/-/provider-walletconnect-2-0.32.0.tgz#a5575a36bc2499b4fd0f7109afaada33b4b0b3e7"
-  integrity sha512-HdMHVfDCgkYY3Tf1hjsZJ/09OlFrtDbHSzIlMxu0AhkID6/zwSnKRAhrAPa6fGGdO/6gm/86dZWsredy7hhYwA==
+"@rango-dev/provider-walletconnect-2@^0.34.0":
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-walletconnect-2/-/provider-walletconnect-2-0.34.0.tgz#bf2747d3ca2fca75805c78a9678f95ad687c4873"
+  integrity sha512-PD9L9FVDT3JGHhOQpWyadxod8w3le/8O9vaQJ7Ku6wpOUhZPZtQANkcG8AWSz3zfG6M0TNkGag1bL+DM8WwEkg==
   dependencies:
     "@cosmjs/launchpad" "^0.27.1"
     "@keplr-wallet/cosmos" "^0.9.12"
@@ -2417,8 +2441,8 @@
     "@rango-dev/logging-core" "^0.6.0"
     "@rango-dev/signer-cosmos" "^0.30.1"
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     "@solana/web3.js" "^1.91.4"
     "@walletconnect/encoding" "^1.0.2"
     "@walletconnect/sign-client" "^2.11.2"
@@ -2428,15 +2452,15 @@
     cosmos-wallet "^1.2.0"
     rango-types "^0.1.74"
 
-"@rango-dev/provider-xdefi@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/provider-xdefi/-/provider-xdefi-0.39.0.tgz#c6eb8c6ae83a304b4ece5ef7bbeb7468304d6675"
-  integrity sha512-xtm+SeWrCAaQK/xCe/eHQQJVVWLiAXdepmnF6i2ow6+a1dYdavtl5/vTUjmWXV8IFI6rVmPcnGzLaQKd1qGYcQ==
+"@rango-dev/provider-xdefi@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/provider-xdefi/-/provider-xdefi-0.41.0.tgz#e1f4709b7516ce4de9d63c91bac1011c30fa1cf7"
+  integrity sha512-jQlTPdlf7ttA+f38+IskDP1l/CjYJpF9pn3G9yQyUW+ODhPVkzvymvLTq3jtvgupy8GMQV7yyvfLFTagCvl/9A==
   dependencies:
     "@rango-dev/signer-cosmos" "^0.30.1"
     "@rango-dev/signer-evm" "^0.32.0"
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     bs58 "^5.0.0"
     rango-types "^0.1.74"
 
@@ -2448,10 +2472,10 @@
     idb "^7.1.1"
     uuid "^9.0.0"
 
-"@rango-dev/queue-manager-rango-preset@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/queue-manager-rango-preset/-/queue-manager-rango-preset-0.39.0.tgz#b4fbf2c559fb87431be1a616cbecea749b2a257d"
-  integrity sha512-pIlVx5dqqINWMffHnrAz0ON29bQCVKbG8Fz7n/n/rpeaIWAIDpbaGteRH1OIRvPbjSmVIUfR4p9TNG/SDyCNzw==
+"@rango-dev/queue-manager-rango-preset@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/queue-manager-rango-preset/-/queue-manager-rango-preset-0.41.0.tgz#12e15d9113456e3610de3b748152701ca0bbfad3"
+  integrity sha512-qhEfC4c6bj0+351SU0WDuCUZdC0eY3lS432o9sQIm7XzrlxxaIRbUmP7HluF7VdND9rhTIQhgttT2RYFBTroqg==
   dependencies:
     "@rango-dev/logging-core" "^0.6.0"
     rango-types "^0.1.74"
@@ -2482,10 +2506,10 @@
     ethers "^6.13.2"
     rango-types "^0.1.74"
 
-"@rango-dev/signer-solana@^0.34.0":
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/signer-solana/-/signer-solana-0.34.0.tgz#0800b5772cd7762033fa0f0f3a168cd89ce1e85d"
-  integrity sha512-ciHcmkV1oqvUuqAQV5UIQl5nsxjWSLhEUewd3CgVIg0JZX84LZH8QjH2bltIckWbOozw6Fzve3gSWCmYSpJMJA==
+"@rango-dev/signer-solana@^0.35.0":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/signer-solana/-/signer-solana-0.35.0.tgz#e6c4c6cdb4f17901c0472c7a37bfb99f47a317fc"
+  integrity sha512-UZ4v2ir0lv1TX+2bp3VV6iGS5+FKfFrxeg6qbJ/gBAw0mrYn7LksrDbuspvOc9rl19YWgxlezGLi/jwtOKvu2g==
   dependencies:
     "@solana/web3.js" "^1.91.4"
     bs58 "^5.0.0"
@@ -2499,6 +2523,13 @@
   dependencies:
     rango-types "^0.1.74"
 
+"@rango-dev/signer-ton@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/signer-ton/-/signer-ton-0.18.0.tgz#aac5e005b080932a993eec4dd6c55a1942349d7d"
+  integrity sha512-OP9V8Jh5oWXx6bRxVXLPUGBVwkTfwUy2jX94IESAAqAnUGAePe0Lv9YPsWjgF2AQJHDh2/M83VeM4sv6EiADVg==
+  dependencies:
+    rango-types "^0.1.74"
+
 "@rango-dev/signer-tron@^0.31.0":
   version "0.31.0"
   resolved "https://registry.yarnpkg.com/@rango-dev/signer-tron/-/signer-tron-0.31.0.tgz#0e59f25343bd9915235bd9eca1657f9b04feb783"
@@ -2506,10 +2537,10 @@
   dependencies:
     rango-types "^0.1.74"
 
-"@rango-dev/ui@^0.41.0":
-  version "0.41.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/ui/-/ui-0.41.0.tgz#95466d830a30270948e4d6d253fcb55e569cef54"
-  integrity sha512-iA8M3djWmFPM8NeBpcu49jj7y5rrAFj/F0gyiokXiUZHZslsYqyNN4xUr516VXLH5uEakI/251S40QS6qo1FzQ==
+"@rango-dev/ui@^0.43.0":
+  version "0.43.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/ui/-/ui-0.43.0.tgz#f9e44254fbdadf7000e3fb4b7a8037ed8224b16c"
+  integrity sha512-W2mjkjbppiN3begwhBR08o5fahmR0FysMJnHAfu65ApVbe1ndTpFOe0i5odaQEkrHhS3dXOjC/vvmiZYfgF7aw==
   dependencies:
     "@radix-ui/react-checkbox" "^1.0.1"
     "@radix-ui/react-collapsible" "^1.0.3"
@@ -2518,7 +2549,7 @@
     "@radix-ui/react-select" "^2.0.0"
     "@radix-ui/react-switch" "^1.0.1"
     "@radix-ui/react-tooltip" "^1.0.2"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     "@stitches/react" "^1.2.8"
     copy-to-clipboard "^3.3.3"
     rango-types "^0.1.74"
@@ -2534,41 +2565,41 @@
     rango-types "^0.1.74"
     zustand "^4.5.2"
 
-"@rango-dev/wallets-react@^0.25.0":
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/wallets-react/-/wallets-react-0.25.0.tgz#a96ab264455acd73e4375d068d9a336944731503"
-  integrity sha512-MR8Yy5qtyGf5nyK3VohvFDQc+2nTwmD6bJbS+gSSYoiZneLZB48yzhXaa5oT/aKcBb8ad0Aboamtm/u5fNWEIw==
+"@rango-dev/wallets-react@^0.27.0":
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/wallets-react/-/wallets-react-0.27.0.tgz#d93114930745c27b5c8e48d136c2b2f364f58623"
+  integrity sha512-jXNNi5La5xFgGzdKGSKSCQk+lBQuFhsphBVxLLQ/jmreKs6r7e6buYdyCcKtqmBeJiJZx3DpERq7vIkgkmKsLA==
   dependencies:
     "@rango-dev/wallets-core" "^0.40.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     rango-types "^0.1.74"
 
-"@rango-dev/wallets-shared@^0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/wallets-shared/-/wallets-shared-0.39.0.tgz#796580a305d43900096b91bdf8bafae222355683"
-  integrity sha512-LLO2bbfCTLk5cVBZfJXP+z9qIksPQ53Bg6V7qIFdsc60ZWjLeOA/aBD3bjUXISKfV76LvHDBWMBGt6BVOUeTbQ==
+"@rango-dev/wallets-shared@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/wallets-shared/-/wallets-shared-0.41.0.tgz#8adff6d9f1b160c0e8b3db81bd62fd2b5cbfc728"
+  integrity sha512-Mg7Dlv3IiO4HBS0bH+hylcKJgW+0WlGf0PzZCUAl2kByY/GCxyStd91rqjebEBqf3dXg0OcNqLthRZXk41WE0Q==
   dependencies:
     "@rango-dev/wallets-core" "^0.40.0"
     ethers "^6.13.2"
     rango-types "^0.1.74"
 
-"@rango-dev/widget-embedded@^0.35.0":
-  version "0.35.0"
-  resolved "https://registry.yarnpkg.com/@rango-dev/widget-embedded/-/widget-embedded-0.35.0.tgz#bc22f09c9bd7a8215f7cf91e037e7a1f2a9d7330"
-  integrity sha512-sMzgJYGM2B5Bw2WwkGO80lZQaIwVa4tAPSSNxW8liwJ0jEyCBqwsD2tXM9REBhkwtqfpKn67+XLMdlzjMvgCRA==
+"@rango-dev/widget-embedded@^0.37.0":
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/@rango-dev/widget-embedded/-/widget-embedded-0.37.0.tgz#5355b3a44f9cad7955543030ea4a34f315e2ab2d"
+  integrity sha512-4ESXpTE0o6JTZeGY7syOwyNXNIHCGQD6lWxIvuPUXuhcHjkN6hz5u73pAG90gpDrgGRFtAnatQr2UEgPOr/smQ==
   dependencies:
     "@lingui/core" "4.2.1"
     "@lingui/react" "4.2.1"
     "@rango-dev/logging-core" "^0.6.0"
-    "@rango-dev/provider-all" "^0.39.0"
+    "@rango-dev/provider-all" "^0.41.0"
     "@rango-dev/queue-manager-core" "^0.27.0"
-    "@rango-dev/queue-manager-rango-preset" "^0.39.0"
+    "@rango-dev/queue-manager-rango-preset" "^0.41.0"
     "@rango-dev/queue-manager-react" "^0.27.0"
-    "@rango-dev/signer-solana" "^0.34.0"
-    "@rango-dev/ui" "^0.41.0"
+    "@rango-dev/signer-solana" "^0.35.0"
+    "@rango-dev/ui" "^0.43.0"
     "@rango-dev/wallets-core" "^0.40.0"
-    "@rango-dev/wallets-react" "^0.25.0"
-    "@rango-dev/wallets-shared" "^0.39.0"
+    "@rango-dev/wallets-react" "^0.27.0"
+    "@rango-dev/wallets-shared" "^0.41.0"
     bignumber.js "^9.1.1"
     copy-to-clipboard "^3.3.3"
     dayjs "^1.11.7"
@@ -2912,6 +2943,70 @@
   integrity sha512-YNlnKRWF2sVojTpIyzwou9XoTNbzbzONwRhOoniEioF1AtaitTvVZblaQRrAzChWQ1bLYyYSWzM18y4WwgzJ+A==
   dependencies:
     tslib "^2.4.0"
+
+"@ton/core@^0.59.0":
+  version "0.59.1"
+  resolved "https://registry.yarnpkg.com/@ton/core/-/core-0.59.1.tgz#fe568069ccdf2f4191da1eadc930076c0c012789"
+  integrity sha512-SxFBAvutYJaIllTkv82vbHTJhJI6NxzqUhi499CDEjJEZ9i6i9lHJiK2df4dlLAb/4SiWX6+QUzESkK4DEdnCw==
+  dependencies:
+    symbol.inspect "1.0.1"
+
+"@ton/crypto-primitives@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@ton/crypto-primitives/-/crypto-primitives-2.1.0.tgz#8c9277c250b59aae3c819e0d6bd61e44d998e9ca"
+  integrity sha512-PQesoyPgqyI6vzYtCXw4/ZzevePc4VGcJtFwf08v10OevVJHVfW238KBdpj1kEDQkxWLeuNHEpTECNFKnP6tow==
+  dependencies:
+    jssha "3.2.0"
+
+"@ton/crypto@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@ton/crypto/-/crypto-3.3.0.tgz#019103df6540fbc1d8102979b4587bc85ff9779e"
+  integrity sha512-/A6CYGgA/H36OZ9BbTaGerKtzWp50rg67ZCH2oIjV1NcrBaCK9Z343M+CxedvM7Haf3f/Ee9EhxyeTp0GKMUpA==
+  dependencies:
+    "@ton/crypto-primitives" "2.1.0"
+    jssha "3.2.0"
+    tweetnacl "1.0.3"
+
+"@tonconnect/isomorphic-eventsource@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@tonconnect/isomorphic-eventsource/-/isomorphic-eventsource-0.0.2.tgz#e58c44cf9953e090f2c35da9a638946ddb614be5"
+  integrity sha512-B4UoIjPi0QkvIzZH5fV3BQLWrqSYABdrzZQSI9sJA9aA+iC0ohOzFwVVGXanlxeDAy1bcvPbb29f6sVUk0UnnQ==
+  dependencies:
+    eventsource "^2.0.2"
+
+"@tonconnect/isomorphic-fetch@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@tonconnect/isomorphic-fetch/-/isomorphic-fetch-0.0.3.tgz#31978e04ddc4428eff532c23d20229ed5ddb6417"
+  integrity sha512-jIg5nTrDwnite4fXao3dD83eCpTvInTjZon/rZZrIftIegh4XxyVb5G2mpMqXrVGk1e8SVXm3Kj5OtfMplQs0w==
+  dependencies:
+    node-fetch "^2.6.9"
+
+"@tonconnect/protocol@^2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@tonconnect/protocol/-/protocol-2.2.6.tgz#24b3fbcde6003e65fb5840a190072db5378699db"
+  integrity sha512-kyoDz5EqgsycYP+A+JbVsAUYHNT059BCrK+m0pqxykMODwpziuSAXfwAZmHcg8v7NB9VKYbdFY55xKeXOuEd0w==
+  dependencies:
+    tweetnacl "^1.0.3"
+    tweetnacl-util "^0.15.1"
+
+"@tonconnect/sdk@3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@tonconnect/sdk/-/sdk-3.0.5.tgz#08a202bdc8ea897c37221fd69925c35cd2106323"
+  integrity sha512-ow0qnN4s3iQ/r2uXobZ7YzdQBtan/36CgCT9IP35G07g38UxsUXwzw8ANmJTDj/JPiQcIKuYBMfIwIX9zLM0wg==
+  dependencies:
+    "@tonconnect/isomorphic-eventsource" "^0.0.2"
+    "@tonconnect/isomorphic-fetch" "^0.0.3"
+    "@tonconnect/protocol" "^2.2.6"
+
+"@tonconnect/ui@^2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@tonconnect/ui/-/ui-2.0.9.tgz#589285c9b8f4b0d94c10b3feadfae266bf086503"
+  integrity sha512-ZxofTBf81NqrxyD0ybI8AuFHN11uKVg/00xTDFhP5FoPB8rYC7En9qE2VJ6IvwvtTpmh8jspi2ancOHUMBoCQA==
+  dependencies:
+    "@tonconnect/sdk" "3.0.5"
+    classnames "^2.3.2"
+    deepmerge "^4.2.2"
+    ua-parser-js "^1.0.35"
 
 "@trezor/analytics@1.1.0":
   version "1.1.0"
@@ -4047,6 +4142,11 @@ citty@^0.1.5, citty@^0.1.6:
   dependencies:
     consola "^3.2.3"
 
+classnames@^2.3.2:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
+  integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
+
 client-only@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/client-only/-/client-only-0.0.1.tgz#38bba5d403c41ab150bff64a95c85013cf73bca1"
@@ -4286,6 +4386,11 @@ deep-is@^0.1.3:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.4.tgz#a6f2dce612fadd2ef1f519b73551f17e85199831"
   integrity sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==
+
+deepmerge@^4.2.2:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.3.1.tgz#44b5f2147cd3b00d4b56137685966f26fd25dd4a"
+  integrity sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==
 
 default-browser-id@^3.0.0:
   version "3.0.0"
@@ -4842,6 +4947,11 @@ events@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
   integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
+
+eventsource@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/eventsource/-/eventsource-2.0.2.tgz#76dfcc02930fb2ff339520b6d290da573a9e8508"
+  integrity sha512-IzUmBGPR3+oUG9dUeXynyNmf91/3zUSJg1lCktzKw47OXuhco54U3r9B7O4XX+Rb1Itm9OZ2b0RkTs10bICOxA==
 
 execa@^5.0.0:
   version "5.1.1"
@@ -5889,6 +5999,11 @@ jsonschema@1.2.2:
   resolved "https://registry.yarnpkg.com/jsonschema/-/jsonschema-1.2.2.tgz#83ab9c63d65bf4d596f91d81195e78772f6452bc"
   integrity sha512-iX5OFQ6yx9NgbHCwse51ohhKgLuLL7Z5cNOeZOPIlDUtAMrxlruHLzVZxbltdHE5mEDXN+75oFOwq6Gn0MZwsA==
 
+jssha@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/jssha/-/jssha-3.2.0.tgz#88ec50b866dd1411deaddbe6b3e3692e4c710f16"
+  integrity sha512-QuruyBENDWdN4tZwJbQq7/eAK85FqrI4oDbXjy5IBhYD+2pTJyBUWZe8ctWaCkrV0gy6AaelgOZZBMeswEa/6Q==
+
 "jsx-ast-utils@^2.4.1 || ^3.0.0", jsx-ast-utils@^3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/jsx-ast-utils/-/jsx-ast-utils-3.3.3.tgz#76b3e6e6cece5c69d49a5792c3d01bd1a0cdc7ea"
@@ -6246,7 +6361,7 @@ node-fetch-native@^1.4.0, node-fetch-native@^1.4.1, node-fetch-native@^1.6.1:
   resolved "https://registry.yarnpkg.com/node-fetch-native/-/node-fetch-native-1.6.2.tgz#f439000d972eb0c8a741b65dcda412322955e1c6"
   integrity sha512-69mtXOFZ6hSkYiXAVB5SqaRvrbITC/NPyqv7yuu/qw0nmgPyYbIMYYNIDhNtwPrzk0ptrimrLz/hhjvm4w5Z+w==
 
-node-fetch@^2.6.1, node-fetch@^2.6.12, node-fetch@^2.7.0:
+node-fetch@^2.6.1, node-fetch@^2.6.12, node-fetch@^2.6.9, node-fetch@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
   integrity sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==
@@ -6711,6 +6826,11 @@ rango-types@^0.1.74:
   version "0.1.74"
   resolved "https://registry.yarnpkg.com/rango-types/-/rango-types-0.1.74.tgz#a6049242ce60f5d84d638c70650735529979a8dd"
   integrity sha512-sMWGAxNF2Yv/PG3eTL01FoHEVf40VEypt1VqPP0HkIwo+gR8WGhEL3JFkAo0UE3gJ7rjgwmMLziAMu1zwwJ+ng==
+
+rango-types@^0.1.75:
+  version "0.1.75"
+  resolved "https://registry.yarnpkg.com/rango-types/-/rango-types-0.1.75.tgz#24d2a3a30e113a7bf1088853e89b39b5722e9c04"
+  integrity sha512-Xb/lfV+fXEQdk6APY77C0oKl++mqdDdwlRyfVi10tV5tfw0Yvl5+p8Av16oPqBcM20WJGjBFCUpHEAKsEprXNQ==
 
 react-dom@18.2.0:
   version "18.2.0"
@@ -7374,6 +7494,11 @@ symbol-observable@^2.0.3:
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-2.0.3.tgz#5b521d3d07a43c351055fa43b8355b62d33fd16a"
   integrity sha512-sQV7phh2WCYAn81oAkakC5qjq2Ml0g8ozqz03wOGnx9dDlG1de6yrF+0RAzSJD8fPUow3PTSMf2SAbOGxb93BA==
 
+symbol.inspect@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/symbol.inspect/-/symbol.inspect-1.0.1.tgz#e13125b8038c4996eb0dfa1567332ad4dcd0763f"
+  integrity sha512-YQSL4duoHmLhsTD1Pw8RW6TZ5MaTX5rXJnqacJottr2P2LZBF/Yvrc3ku4NUpMOm8aM0KOCqM+UAkMA5HWQCzQ==
+
 synckit@^0.8.5:
   version "0.8.5"
   resolved "https://registry.yarnpkg.com/synckit/-/synckit-0.8.5.tgz#b7f4358f9bb559437f9f167eb6bc46b3c9818fa3"
@@ -7494,6 +7619,16 @@ tsutils@^3.21.0:
   dependencies:
     tslib "^1.8.1"
 
+tweetnacl-util@^0.15.1:
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/tweetnacl-util/-/tweetnacl-util-0.15.1.tgz#b80fcdb5c97bcc508be18c44a4be50f022eea00b"
+  integrity sha512-RKJBIj8lySrShN4w6i/BonWp2Z/uxwC3h4y7xsRrpP59ZboCd0GpEVsOnMDYLMmKBpYhb5TgHzZXy7wTfYFBRw==
+
+tweetnacl@1.0.3, tweetnacl@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-1.0.3.tgz#ac0af71680458d8a6378d0d0d050ab1407d35596"
+  integrity sha512-6rt+RN7aOi1nGMyC4Xa5DdYiukl2UWCbcJft7YhxReBGQD7OAM8Pbxw6YMo4r2diNEA8FEmu32YOn9rhaiE5yw==
+
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/type-check/-/type-check-0.4.0.tgz#07b8203bfa7056c0657050e3ccd2c37730bab8f1"
@@ -7536,6 +7671,11 @@ typescript@5.0.4:
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.0.4.tgz#b217fd20119bd61a94d4011274e0ab369058da3b"
   integrity sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==
+
+ua-parser-js@^1.0.35:
+  version "1.0.40"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.40.tgz#ac6aff4fd8ea3e794a6aa743ec9c2fc29e75b675"
+  integrity sha512-z6PJ8Lml+v3ichVojCiB8toQJBuwR42ySM4ezjXIqXK3M0HczmKQ3LF4rhU55PfD99KEEXQG6yb7iOMyvYuHew==
 
 ua-parser-js@^1.0.37:
   version "1.0.38"
